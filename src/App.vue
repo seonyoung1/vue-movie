@@ -1,12 +1,22 @@
 <template>
-	<div id="app">hello~</div>
+	<div id="app">
+		<app-header></app-header>
+		<div id="container">
+			<router-view></router-view>
+		</div>
+	</div>
 </template>
 
 <script>
+import AppHeader from './components/common/AppHeader';
 export default {
 	name: 'App',
-	components: {},
+	components: {
+		AppHeader,
+	},
 };
 </script>
 
-<style></style>
+<style lang="scss">
+@import '~@/assets/scss/style.scss';
+</style>

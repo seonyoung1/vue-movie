@@ -7,7 +7,7 @@
 3. prettier, eslint-plugin-prettier, eslint-config-prettier
 4. ie11 polyfill
    babel-polyfill, browserslist 에 ie11 추가
-5. sass, sass-loader
+5. sass, sass-loader@10
 
 ### 구조
 1. api
